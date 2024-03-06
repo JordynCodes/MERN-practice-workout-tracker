@@ -7,6 +7,7 @@ const Login = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         console.log('login');
+        console.log(email, password);
     };
 
     return (
